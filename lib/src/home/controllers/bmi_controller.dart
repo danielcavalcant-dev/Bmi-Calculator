@@ -14,11 +14,11 @@ class BmiController {
     final bmiText = bmiValue.toStringAsFixed(2);
 
     if (bmiValue < 18) {
-      result = bmiText;
+      result = 'O seu BMI é $bmiText.';
     } else if (bmiValue > 18 && bmiValue < 24) {
-      result = bmiText;
+      result = 'O seu BMI é $bmiText.';
     } else {
-      result = bmiText;
+      result = 'O seu BMI é $bmiText.';
     }
   }
 }
